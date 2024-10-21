@@ -79,7 +79,7 @@ Add products to the cart and delete
 Download and verify the bill
     [Documentation]    Downloads and verify the bill for older orders
     Set Selenium Implicit Wait    10
-    Mouse Over    //div[contains(text(),'partha')]
+    Mouse Over    //div[contains(text(),'Sayali')]
     Wait And Click    //a[@title='Orders']
     @{allOrders}     Get WebElements        //div[@class='col-8-12']
     For    ${element} in  @{allOrders}:
